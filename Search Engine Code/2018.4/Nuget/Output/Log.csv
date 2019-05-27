@@ -1,0 +1,469 @@
+,,
+05/23/2019 22:08:33,Info,Satrting NugetInstallation.xaml
+05/23/2019 22:08:33,Info,Inside Flowchart
+05/23/2019 22:08:36,Info,Reading file : C:\Program Files (x86)\UiPath\Studio\NuGet.Config
+05/23/2019 22:08:36,Info,"--> Text in file : <?xml version=""1.0"" encoding=""utf-8""?>
+<configuration>
+  <packageSources>
+    <!-- Add this repository to the list of available repositories -->
+    <add key=""Local"" value="".\Packages"" />
+    <add key=""Official"" value=""https://www.myget.org/F/workflow/"" />
+    <add key=""Community"" value=""https://gallery.uipath.com/api/v2"" />
+  </packageSources>
+</configuration>"
+05/23/2019 22:08:36,Info,"--> Items in dictionary : {""Local"":"".\\Packages"",""Official"":""https://www.myget.org/F/workflow/"",""Community"":""https://gallery.uipath.com/api/v2""}"
+05/23/2019 22:08:40,Info,Checking Local feed : C:\Program Files (x86)\UiPath\Studio\Packages
+05/23/2019 22:08:41,Info,Write Access provided to local feed? : True
+05/23/2019 22:08:41,Info,Number of .nupkg files present in the Local Feed49
+05/23/2019 22:08:41,Info,"FIles present are : [""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.Genetic.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.Imaging.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.Math.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.Neuro.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AvalonEdit.5.0.2.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AvalonEdit.5.0.3.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\BitMiracle.Docotic.Pdf.5.2.8369.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\BouncyCastle.1.8.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Caliburn.Micro.3.0.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Caliburn.Micro.Core.3.0.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\ClosedXML.0.87.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\CsvHelper.2.13.5.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\DocumentFormat.OpenXml.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\DocX.1.0.0.18.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Extended.Wpf.Toolkit.3.5.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Fluent.Ribbon.3.5.1.198.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\FSharp.Core.4.0.0.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Humanizer.Core.2.4.2.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\IvanAkcheurov.NTextCat.Lib.0.2.1.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\MathNet.Numerics.4.5.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Metrics.NET.0.5.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Microsoft.Exchange.WebServices.2.2.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Microsoft.Rest.ClientRuntime.2.3.10.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Microsoft.VisualStudio.OLE.Interop.7.10.6071.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Newtonsoft.Json.10.0.3.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Newtonsoft.Json.8.0.3.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\NPOI.2.4.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Numsense.0.12.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\RestSharp.106.3.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\SharpZipLib.1.0.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\System.Collections.Immutable.1.5.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\System.Runtime.InteropServices.RuntimeInformation.4.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\System.ValueTuple.4.4.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.10.0.7020.22745.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.CefSharpBundle.1.0.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Cognitive.Activities.2.2.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Core.Activities.2018.3.6897.22553.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Excel.Activities.2.5.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Framework.Activities.2018.3.6897.22555.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.IntelligentOCR.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Mail.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.PDF.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.System.Activities.18.4.2.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Terminal.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.UIAutomation.Activities.18.4.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Vision.1.2.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.WebAPI.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Word.Activities.1.3.0.nupkg""]"
+05/23/2019 22:08:41,Info,Trying to install UiPathSupportDummyProject to the Output directory
+05/23/2019 22:08:41,Info,NuGet Version: 4.9.4.5839
+05/23/2019 22:08:41,Info,Feeds used:
+05/23/2019 22:08:41,Info,"  C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4"
+05/23/2019 22:08:41,Info,
+05/23/2019 22:08:41,Info,Installing package 'UiPathSupportDummyProject' to 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output'.
+05/23/2019 22:08:42,Info,
+05/23/2019 22:08:42,Info,
+05/23/2019 22:08:42,Info,"Attempting to gather dependency information for package 'UiPathSupportDummyProject.1.0.7069.27608' with respect to project 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output', targeting 'Any,Version=v0.0'"
+05/23/2019 22:08:42,Info,Package UiPathSupportDummyProject from source C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4 gathered from cache.
+05/23/2019 22:08:42,Info,Total number of results gathered : 1
+05/23/2019 22:08:42,Info,Gathering dependency information took 23.34 ms
+05/23/2019 22:08:42,Info,Summary of time taken to gather dependencies per source :
+05/23/2019 22:08:42,Info,Attempting to resolve dependencies for package 'UiPathSupportDummyProject.1.0.7069.27608' with DependencyBehavior 'Lowest'
+05/23/2019 22:08:42,Info,Resolving dependency information took 0 ms
+05/23/2019 22:08:42,Info,Resolving actions to install package 'UiPathSupportDummyProject.1.0.7069.27608'
+05/23/2019 22:08:42,Info,Resolved actions to install package 'UiPathSupportDummyProject.1.0.7069.27608'
+05/23/2019 22:08:42,Info,Retrieving package 'UiPathSupportDummyProject 1.0.7069.27608' from 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4'.
+05/23/2019 22:08:42,Info,Adding package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output'
+05/23/2019 22:08:42,Info,Added package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output'
+05/23/2019 22:08:42,Info,Added package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output' from source 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4'
+05/23/2019 22:08:42,Info,Successfully installed 'UiPathSupportDummyProject 1.0.7069.27608' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output
+05/23/2019 22:08:42,Info,Executing nuget actions took 81.01 ms
+05/23/2019 22:08:42,Info," Successfully installed UiPathSupportDummyProject to the Output directory"
+05/23/2019 22:08:45,Info,Checking Official feed : https://www.myget.org/F/workflow/
+05/23/2019 22:08:46,Info,NuGet Version: 4.9.4.5839
+05/23/2019 22:08:46,Info,Feeds used:
+05/23/2019 22:08:46,Info,"  C:\Users\Vijay Chand\.nuget\packages\"
+05/23/2019 22:08:46,Info,"  https://www.myget.org/F/workflow//api/v3/index.json"
+05/23/2019 22:08:46,Info,
+05/23/2019 22:08:46,Info,
+05/23/2019 22:08:46,Info,
+05/23/2019 22:08:46,Info,"Attempting to gather dependency information for package 'UiPath.Mail.Activities.1.4.0' with respect to project 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output', targeting 'Any,Version=v0.0'"
+05/23/2019 22:08:46,Info,"  CACHE https://www.myget.org/F/workflow/api/v3/registration1/uipath.mail.activities/index.json"
+05/23/2019 22:08:47,Info,"  CACHE https://www.myget.org/F/workflow/api/v3/registration1/microsoft.exchange.webservices/index.json"
+05/23/2019 22:08:47,Info,"  CACHE https://www.myget.org/F/workflow/api/v3/registration1/bouncycastle/index.json"
+05/23/2019 22:08:47,Info,"  CACHE https://www.myget.org/F/workflow/api/v3/registration1/interop.domino.dll/index.json"
+05/23/2019 22:08:47,Info,Total number of results gathered : 11
+05/23/2019 22:08:47,Info,Gathering dependency information took 173.72 ms
+05/23/2019 22:08:47,Info,Summary of time taken to gather dependencies per source :
+05/23/2019 22:08:47,Info,https://www.myget.org/F/workflow//api/v3/index.json	-	75.56 ms
+05/23/2019 22:08:47,Info,C:\Users\Vijay Chand\.nuget\packages\	-	35.64 ms
+05/23/2019 22:08:47,Info,C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output	-	5.94 ms
+05/23/2019 22:08:47,Info,Attempting to resolve dependencies for package 'UiPath.Mail.Activities.1.4.0' with DependencyBehavior 'Lowest'
+05/23/2019 22:08:47,Info,Resolving dependency information took 0 ms
+05/23/2019 22:08:47,Info,Resolving actions to install package 'UiPath.Mail.Activities.1.4.0'
+05/23/2019 22:08:47,Info,Resolved actions to install package 'UiPath.Mail.Activities.1.4.0'
+05/23/2019 22:08:47,Info,Retrieving package 'BouncyCastle 1.8.1' from 'C:\Users\Vijay Chand\.nuget\packages\'.
+05/23/2019 22:08:47,Info,Retrieving package 'interop.domino.dll 1.0.0' from 'C:\Users\Vijay Chand\.nuget\packages\'.
+05/23/2019 22:08:47,Info,Retrieving package 'Microsoft.Exchange.WebServices 2.2.0' from 'C:\Users\Vijay Chand\.nuget\packages\'.
+05/23/2019 22:08:47,Info,Retrieving package 'UiPath.Mail.Activities 1.4.0' from 'C:\Users\Vijay Chand\.nuget\packages\'.
+05/23/2019 22:08:47,Info,Adding package 'BouncyCastle.1.8.1' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output'
+05/23/2019 22:08:47,Info,Added package 'BouncyCastle.1.8.1' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output'
+05/23/2019 22:08:47,Info,Added package 'BouncyCastle.1.8.1' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output' from source 'C:\Users\Vijay Chand\.nuget\packages\'
+05/23/2019 22:08:47,Info,Successfully installed 'BouncyCastle 1.8.1' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output
+05/23/2019 22:08:47,Info,Adding package 'interop.domino.dll.1.0.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output'
+05/23/2019 22:08:47,Info,Added package 'interop.domino.dll.1.0.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output'
+05/23/2019 22:08:47,Info,Added package 'interop.domino.dll.1.0.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output' from source 'C:\Users\Vijay Chand\.nuget\packages\'
+05/23/2019 22:08:47,Info,Successfully installed 'interop.domino.dll 1.0.0' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output
+05/23/2019 22:08:47,Info,Adding package 'Microsoft.Exchange.WebServices.2.2.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output'
+05/23/2019 22:08:47,Info,Added package 'Microsoft.Exchange.WebServices.2.2.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output'
+05/23/2019 22:08:47,Info,Added package 'Microsoft.Exchange.WebServices.2.2.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output' from source 'C:\Users\Vijay Chand\.nuget\packages\'
+05/23/2019 22:08:47,Info,Successfully installed 'Microsoft.Exchange.WebServices 2.2.0' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output
+05/23/2019 22:08:47,Info,Adding package 'UiPath.Mail.Activities.1.4.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output'
+05/23/2019 22:08:47,Info,PackageSignatureVerificationLog: PackageIdentity: UiPath.Mail.Activities.1.4.0 Source: C:\Users\Vijay Chand\.nuget\packages\ PackageSignatureValidity: True
+05/23/2019 22:08:47,Info,Added package 'UiPath.Mail.Activities.1.4.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output'
+05/23/2019 22:08:47,Info,Added package 'UiPath.Mail.Activities.1.4.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output' from source 'C:\Users\Vijay Chand\.nuget\packages\'
+05/23/2019 22:08:47,Info,Successfully installed 'UiPath.Mail.Activities 1.4.0' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Output
+05/23/2019 22:08:47,Info,Executing nuget actions took 423.15 ms
+05/23/2019 22:08:53,Info,--> The API Key 'eb5b1110-5eb0-4274-a54f-b5ed85c6301a' was saved for 'https://platform.uipath.com/nuget/feed/fantastic'.
+05/23/2019 22:08:54,Info,Pushing UiPathSupportDummyProject.1.0.7069.27608.nupkg to 'https://platform.uipath.com/nuget/feed/fantastic'...
+05/23/2019 22:08:54,Info,"  BadRequest https://platform.uipath.com/nuget/feed/fantastic/ 677ms"
+05/23/2019 22:08:54,Info,Installing UiPathSupportDummyProject from Orch to .nuget/packages
+05/23/2019 22:08:55,Info,NuGet Version: 4.9.4.5839
+05/23/2019 22:08:55,Info,Feeds used:
+05/23/2019 22:08:55,Info,"  https://platform.uipath.com/nuget/feed/fantastic"
+05/23/2019 22:08:55,Info,
+05/23/2019 22:08:55,Info,Installing package 'UiPathSupportDummyProject' to 'C:\Users\Vijay Chand\.nuget\packages'.
+05/23/2019 22:08:56,Info,"  GET https://platform.uipath.com/nuget/feed/fantastic/FindPackagesById()?id='UiPathSupportDummyProject'&semVerLevel=2.0.0"
+05/23/2019 22:08:56,Info,"  OK https://platform.uipath.com/nuget/feed/fantastic/FindPackagesById()?id='UiPathSupportDummyProject'&semVerLevel=2.0.0 207ms"
+05/23/2019 22:08:56,Info,
+05/23/2019 22:08:56,Info,
+05/23/2019 22:08:56,Info,"Attempting to gather dependency information for package 'UiPathSupportDummyProject.1.0.7069.27608' with respect to project 'C:\Users\Vijay Chand\.nuget\packages', targeting 'Any,Version=v0.0'"
+05/23/2019 22:08:56,Info,Package UiPathSupportDummyProject from source https://platform.uipath.com/nuget/feed/fantastic gathered from cache.
+05/23/2019 22:08:56,Info,Total number of results gathered : 1
+05/23/2019 22:08:56,Info,Gathering dependency information took 35.39 ms
+05/23/2019 22:08:56,Info,Summary of time taken to gather dependencies per source :
+05/23/2019 22:08:56,Info,Attempting to resolve dependencies for package 'UiPathSupportDummyProject.1.0.7069.27608' with DependencyBehavior 'Lowest'
+05/23/2019 22:08:56,Info,Resolving dependency information took 0 ms
+05/23/2019 22:08:56,Info,Resolving actions to install package 'UiPathSupportDummyProject.1.0.7069.27608'
+05/23/2019 22:08:56,Info,Resolved actions to install package 'UiPathSupportDummyProject.1.0.7069.27608'
+05/23/2019 22:08:57,Info,Retrieving package 'UiPathSupportDummyProject 1.0.7069.27608' from 'https://platform.uipath.com/nuget/feed/fantastic'.
+05/23/2019 22:08:57,Info,"  GET https://platform.uipath.com/nuget/Feed/fantastic/Packages(Id='UiPathSupportDummyProject',Version='1.0.7069.27608')/Download"
+05/23/2019 22:08:57,Info,"  OK https://platform.uipath.com/nuget/Feed/fantastic/Packages(Id='UiPathSupportDummyProject',Version='1.0.7069.27608')/Download 254ms"
+05/23/2019 22:08:57,Info,Acquiring lock for the installation of UiPathSupportDummyProject 1.0.7069.27608
+05/23/2019 22:08:57,Info,Acquired lock for the installation of UiPathSupportDummyProject 1.0.7069.27608
+05/23/2019 22:08:57,Info,Installing UiPathSupportDummyProject 1.0.7069.27608.
+05/23/2019 22:08:57,Info,Completed installation of UiPathSupportDummyProject 1.0.7069.27608
+05/23/2019 22:08:57,Info,Adding package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\.nuget\packages'
+05/23/2019 22:08:57,Info,Added package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\.nuget\packages'
+05/23/2019 22:08:57,Info,Added package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\.nuget\packages' from source 'https://platform.uipath.com/nuget/feed/fantastic'
+05/23/2019 22:08:57,Info,Successfully installed 'UiPathSupportDummyProject 1.0.7069.27608' to C:\Users\Vijay Chand\.nuget\packages
+05/23/2019 22:08:57,Info,Executing nuget actions took 649.44 ms
+,,
+05/23/2019 22:46:27,Info,Satrting NugetInstallation.xaml
+05/23/2019 22:46:27,Info,Inside Flowchart
+05/23/2019 22:46:30,Info,Reading file : C:\Program Files (x86)\UiPath\Studio\NuGet.Config
+05/23/2019 22:46:30,Info,"--> Text in file : <?xml version=""1.0"" encoding=""utf-8""?>
+<configuration>
+  <packageSources>
+    <!-- Add this repository to the list of available repositories -->
+    <add key=""Local"" value="".\Packages"" />
+    <add key=""Official"" value=""https://www.myget.org/F/workflow/"" />
+    <add key=""Community"" value=""https://gallery.uipath.com/api/v2"" />
+  </packageSources>
+</configuration>"
+05/23/2019 22:46:30,Info,"--> Items in dictionary : {""Local"":"".\\Packages"",""Official"":""https://www.myget.org/F/workflow/"",""Community"":""https://gallery.uipath.com/api/v2""}"
+05/23/2019 22:46:32,Info,Checking Local feed : C:\Program Files (x86)\UiPath\Studio\Packages
+05/23/2019 22:46:34,Info,Write Access provided to local feed? : True
+05/23/2019 22:46:34,Info,Number of .nupkg files present in the Local Feed49
+05/23/2019 22:46:34,Info,"FIles present are : [""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.Genetic.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.Imaging.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.Math.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.Neuro.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AvalonEdit.5.0.2.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AvalonEdit.5.0.3.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\BitMiracle.Docotic.Pdf.5.2.8369.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\BouncyCastle.1.8.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Caliburn.Micro.3.0.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Caliburn.Micro.Core.3.0.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\ClosedXML.0.87.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\CsvHelper.2.13.5.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\DocumentFormat.OpenXml.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\DocX.1.0.0.18.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Extended.Wpf.Toolkit.3.5.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Fluent.Ribbon.3.5.1.198.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\FSharp.Core.4.0.0.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Humanizer.Core.2.4.2.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\IvanAkcheurov.NTextCat.Lib.0.2.1.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\MathNet.Numerics.4.5.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Metrics.NET.0.5.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Microsoft.Exchange.WebServices.2.2.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Microsoft.Rest.ClientRuntime.2.3.10.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Microsoft.VisualStudio.OLE.Interop.7.10.6071.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Newtonsoft.Json.10.0.3.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Newtonsoft.Json.8.0.3.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\NPOI.2.4.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Numsense.0.12.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\RestSharp.106.3.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\SharpZipLib.1.0.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\System.Collections.Immutable.1.5.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\System.Runtime.InteropServices.RuntimeInformation.4.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\System.ValueTuple.4.4.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.10.0.7020.22745.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.CefSharpBundle.1.0.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Cognitive.Activities.2.2.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Core.Activities.2018.3.6897.22553.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Excel.Activities.2.5.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Framework.Activities.2018.3.6897.22555.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.IntelligentOCR.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Mail.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.PDF.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.System.Activities.18.4.2.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Terminal.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.UIAutomation.Activities.18.4.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Vision.1.2.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.WebAPI.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Word.Activities.1.3.0.nupkg""]"
+05/23/2019 22:46:34,Info,Trying to install UiPathSupportDummyProject to the Output directory
+05/23/2019 22:46:34,Info,NuGet Version: 4.9.4.5839
+05/23/2019 22:46:34,Info,Feeds used:
+05/23/2019 22:46:34,Info,"  C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget"
+05/23/2019 22:46:34,Info,
+05/23/2019 22:46:34,Info,Installing package 'UiPathSupportDummyProject' to 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'.
+05/23/2019 22:46:34,Info,
+05/23/2019 22:46:34,Info,
+05/23/2019 22:46:34,Info,"Attempting to gather dependency information for package 'UiPathSupportDummyProject.1.0.7069.27608' with respect to project 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output', targeting 'Any,Version=v0.0'"
+05/23/2019 22:46:35,Info,Package UiPathSupportDummyProject from source C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget gathered from cache.
+05/23/2019 22:46:35,Info,Total number of results gathered : 1
+05/23/2019 22:46:35,Info,Gathering dependency information took 23.15 ms
+05/23/2019 22:46:35,Info,Summary of time taken to gather dependencies per source :
+05/23/2019 22:46:35,Info,Attempting to resolve dependencies for package 'UiPathSupportDummyProject.1.0.7069.27608' with DependencyBehavior 'Lowest'
+05/23/2019 22:46:35,Info,Resolving dependency information took 0 ms
+05/23/2019 22:46:35,Info,Resolving actions to install package 'UiPathSupportDummyProject.1.0.7069.27608'
+05/23/2019 22:46:35,Info,Resolved actions to install package 'UiPathSupportDummyProject.1.0.7069.27608'
+05/23/2019 22:46:35,Info,Retrieving package 'UiPathSupportDummyProject 1.0.7069.27608' from 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget'.
+05/23/2019 22:46:35,Info,Adding package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:46:35,Info,Added package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:46:35,Info,Added package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output' from source 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget'
+05/23/2019 22:46:35,Info,Successfully installed 'UiPathSupportDummyProject 1.0.7069.27608' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output
+05/23/2019 22:46:35,Info,Executing nuget actions took 84.73 ms
+05/23/2019 22:46:35,Info," Successfully installed UiPathSupportDummyProject to the Output directory"
+05/23/2019 22:46:40,Info,Checking Official feed : https://www.myget.org/F/workflow/
+05/23/2019 22:46:41,Info,NuGet Version: 4.9.4.5839
+05/23/2019 22:46:41,Info,Feeds used:
+05/23/2019 22:46:41,Info,"  C:\Users\Vijay Chand\.nuget\packages\"
+05/23/2019 22:46:41,Info,"  https://www.myget.org/F/workflow//api/v3/index.json"
+05/23/2019 22:46:41,Info,
+05/23/2019 22:46:41,Info,
+05/23/2019 22:46:41,Info,
+05/23/2019 22:46:41,Info,"Attempting to gather dependency information for package 'UiPath.Mail.Activities.1.4.0' with respect to project 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output', targeting 'Any,Version=v0.0'"
+05/23/2019 22:46:43,Info,"  GET https://www.myget.org/F/workflow/api/v3/registration1/uipath.mail.activities/index.json"
+05/23/2019 22:46:43,Info,"  GET https://www.myget.org/F/workflow/api/v3/registration1/microsoft.exchange.webservices/index.json"
+05/23/2019 22:46:43,Info,"  GET https://www.myget.org/F/workflow/api/v3/registration1/bouncycastle/index.json"
+05/23/2019 22:46:43,Info,"  GET https://www.myget.org/F/workflow/api/v3/registration1/interop.domino.dll/index.json"
+05/23/2019 22:46:44,Info,"  OK https://www.myget.org/F/workflow/api/v3/registration1/microsoft.exchange.webservices/index.json 654ms"
+05/23/2019 22:46:44,Info,"  OK https://www.myget.org/F/workflow/api/v3/registration1/bouncycastle/index.json 657ms"
+05/23/2019 22:46:45,Info,"  OK https://www.myget.org/F/workflow/api/v3/registration1/interop.domino.dll/index.json 2134ms"
+05/23/2019 22:46:46,Info,"  OK https://www.myget.org/F/workflow/api/v3/registration1/uipath.mail.activities/index.json 2514ms"
+05/23/2019 22:46:46,Info,Total number of results gathered : 11
+05/23/2019 22:46:46,Info,Gathering dependency information took 5.36 sec
+05/23/2019 22:46:46,Info,Summary of time taken to gather dependencies per source :
+05/23/2019 22:46:46,Info,https://www.myget.org/F/workflow//api/v3/index.json	-	6.9 sec
+05/23/2019 22:46:46,Info,C:\Users\Vijay Chand\.nuget\packages\	-	95.15 ms
+05/23/2019 22:46:46,Info,C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output	-	3.09 ms
+05/23/2019 22:46:46,Info,Attempting to resolve dependencies for package 'UiPath.Mail.Activities.1.4.0' with DependencyBehavior 'Lowest'
+05/23/2019 22:46:46,Info,Resolving dependency information took 0 ms
+05/23/2019 22:46:46,Info,Resolving actions to install package 'UiPath.Mail.Activities.1.4.0'
+05/23/2019 22:46:46,Info,Resolved actions to install package 'UiPath.Mail.Activities.1.4.0'
+05/23/2019 22:46:46,Info,Retrieving package 'BouncyCastle 1.8.1' from 'C:\Users\Vijay Chand\.nuget\packages\'.
+05/23/2019 22:46:46,Info,Retrieving package 'interop.domino.dll 1.0.0' from 'C:\Users\Vijay Chand\.nuget\packages\'.
+05/23/2019 22:46:46,Info,Retrieving package 'Microsoft.Exchange.WebServices 2.2.0' from 'C:\Users\Vijay Chand\.nuget\packages\'.
+05/23/2019 22:46:46,Info,Retrieving package 'UiPath.Mail.Activities 1.4.0' from 'C:\Users\Vijay Chand\.nuget\packages\'.
+05/23/2019 22:46:47,Info,Adding package 'BouncyCastle.1.8.1' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:46:47,Info,Added package 'BouncyCastle.1.8.1' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:46:47,Info,Added package 'BouncyCastle.1.8.1' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output' from source 'C:\Users\Vijay Chand\.nuget\packages\'
+05/23/2019 22:46:47,Info,Successfully installed 'BouncyCastle 1.8.1' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output
+05/23/2019 22:46:47,Info,Adding package 'interop.domino.dll.1.0.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:46:47,Info,Added package 'interop.domino.dll.1.0.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:46:47,Info,Added package 'interop.domino.dll.1.0.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output' from source 'C:\Users\Vijay Chand\.nuget\packages\'
+05/23/2019 22:46:47,Info,Successfully installed 'interop.domino.dll 1.0.0' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output
+05/23/2019 22:46:47,Info,Adding package 'Microsoft.Exchange.WebServices.2.2.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:46:47,Info,Added package 'Microsoft.Exchange.WebServices.2.2.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:46:47,Info,Added package 'Microsoft.Exchange.WebServices.2.2.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output' from source 'C:\Users\Vijay Chand\.nuget\packages\'
+05/23/2019 22:46:47,Info,Successfully installed 'Microsoft.Exchange.WebServices 2.2.0' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output
+05/23/2019 22:46:47,Info,Adding package 'UiPath.Mail.Activities.1.4.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:46:47,Info,PackageSignatureVerificationLog: PackageIdentity: UiPath.Mail.Activities.1.4.0 Source: C:\Users\Vijay Chand\.nuget\packages\ PackageSignatureValidity: True
+05/23/2019 22:46:47,Info,Added package 'UiPath.Mail.Activities.1.4.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:46:47,Info,Added package 'UiPath.Mail.Activities.1.4.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output' from source 'C:\Users\Vijay Chand\.nuget\packages\'
+05/23/2019 22:46:47,Info,Successfully installed 'UiPath.Mail.Activities 1.4.0' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output
+05/23/2019 22:46:47,Info,Executing nuget actions took 700.34 ms
+05/23/2019 22:46:52,Errro,"One or more errors occurred.
+
+Server stack trace: 
+   at UiPath.Core.Activities.Retry.Do[ResultType](Func`1 action, Int32 timeoutMS, Int32 retryCount)
+   at UiPath.Core.Activities.ReadTextFile.ExecuteAsync(String fileName, String encodingStr)
+   at UiPath.Core.Activities.ReadTextFile.<>c__DisplayClass12_0.<BeginExecute>b__0()
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.EndInvokeHelper(Message reqMsg, Boolean bProxyCase)
+   at System.Runtime.Remoting.Proxies.RemotingProxy.Invoke(Object NotUsed, MessageData& msgData)
+   at System.Func`1.EndInvoke(IAsyncResult result)
+   at UiPath.Core.Activities.ReadTextFile.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
+   at System.Activities.AsyncCodeActivity.System.Activities.IAsyncCodeActivity.FinishExecution(AsyncCodeActivityContext context, IAsyncResult result)
+   at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)"
+,,
+05/23/2019 22:48:13,Info,Satrting NugetInstallation.xaml
+05/23/2019 22:48:13,Info,Inside Flowchart
+05/23/2019 22:48:15,Info,Reading file : C:\Program Files (x86)\UiPath\Studio\NuGet.Config
+05/23/2019 22:48:15,Info,"--> Text in file : <?xml version=""1.0"" encoding=""utf-8""?>
+<configuration>
+  <packageSources>
+    <!-- Add this repository to the list of available repositories -->
+    <add key=""Local"" value="".\Packages"" />
+    <add key=""Official"" value=""https://www.myget.org/F/workflow/"" />
+    <add key=""Community"" value=""https://gallery.uipath.com/api/v2"" />
+  </packageSources>
+</configuration>"
+05/23/2019 22:48:15,Info,"--> Items in dictionary : {""Local"":"".\\Packages"",""Official"":""https://www.myget.org/F/workflow/"",""Community"":""https://gallery.uipath.com/api/v2""}"
+05/23/2019 22:48:16,Info,Checking Local feed : C:\Program Files (x86)\UiPath\Studio\Packages
+05/23/2019 22:48:17,Info,Write Access provided to local feed? : True
+05/23/2019 22:48:17,Info,Number of .nupkg files present in the Local Feed49
+05/23/2019 22:48:17,Info,"FIles present are : [""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.Genetic.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.Imaging.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.Math.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.Neuro.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AvalonEdit.5.0.2.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AvalonEdit.5.0.3.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\BitMiracle.Docotic.Pdf.5.2.8369.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\BouncyCastle.1.8.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Caliburn.Micro.3.0.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Caliburn.Micro.Core.3.0.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\ClosedXML.0.87.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\CsvHelper.2.13.5.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\DocumentFormat.OpenXml.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\DocX.1.0.0.18.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Extended.Wpf.Toolkit.3.5.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Fluent.Ribbon.3.5.1.198.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\FSharp.Core.4.0.0.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Humanizer.Core.2.4.2.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\IvanAkcheurov.NTextCat.Lib.0.2.1.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\MathNet.Numerics.4.5.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Metrics.NET.0.5.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Microsoft.Exchange.WebServices.2.2.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Microsoft.Rest.ClientRuntime.2.3.10.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Microsoft.VisualStudio.OLE.Interop.7.10.6071.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Newtonsoft.Json.10.0.3.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Newtonsoft.Json.8.0.3.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\NPOI.2.4.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Numsense.0.12.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\RestSharp.106.3.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\SharpZipLib.1.0.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\System.Collections.Immutable.1.5.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\System.Runtime.InteropServices.RuntimeInformation.4.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\System.ValueTuple.4.4.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.10.0.7020.22745.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.CefSharpBundle.1.0.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Cognitive.Activities.2.2.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Core.Activities.2018.3.6897.22553.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Excel.Activities.2.5.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Framework.Activities.2018.3.6897.22555.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.IntelligentOCR.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Mail.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.PDF.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.System.Activities.18.4.2.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Terminal.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.UIAutomation.Activities.18.4.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Vision.1.2.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.WebAPI.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Word.Activities.1.3.0.nupkg""]"
+05/23/2019 22:48:17,Info,Trying to install UiPathSupportDummyProject to the Output directory
+05/23/2019 22:48:18,Info,NuGet Version: 4.9.4.5839
+05/23/2019 22:48:18,Info,Feeds used:
+05/23/2019 22:48:18,Info,"  C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget"
+05/23/2019 22:48:18,Info,
+05/23/2019 22:48:18,Info,Installing package 'UiPathSupportDummyProject' to 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'.
+05/23/2019 22:48:18,Info,
+05/23/2019 22:48:18,Info,
+05/23/2019 22:48:18,Info,"Attempting to gather dependency information for package 'UiPathSupportDummyProject.1.0.7069.27608' with respect to project 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output', targeting 'Any,Version=v0.0'"
+05/23/2019 22:48:18,Info,Package UiPathSupportDummyProject from source C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget gathered from cache.
+05/23/2019 22:48:18,Info,Total number of results gathered : 1
+05/23/2019 22:48:18,Info,Gathering dependency information took 46.04 ms
+05/23/2019 22:48:18,Info,Summary of time taken to gather dependencies per source :
+05/23/2019 22:48:18,Info,Attempting to resolve dependencies for package 'UiPathSupportDummyProject.1.0.7069.27608' with DependencyBehavior 'Lowest'
+05/23/2019 22:48:18,Info,Resolving dependency information took 0 ms
+05/23/2019 22:48:18,Info,Resolving actions to install package 'UiPathSupportDummyProject.1.0.7069.27608'
+05/23/2019 22:48:18,Info,Resolved actions to install package 'UiPathSupportDummyProject.1.0.7069.27608'
+05/23/2019 22:48:18,Info,Retrieving package 'UiPathSupportDummyProject 1.0.7069.27608' from 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget'.
+05/23/2019 22:48:18,Info,Adding package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:48:18,Info,Added package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:48:18,Info,Added package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output' from source 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget'
+05/23/2019 22:48:18,Info,Successfully installed 'UiPathSupportDummyProject 1.0.7069.27608' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output
+05/23/2019 22:48:18,Info,Executing nuget actions took 97.76 ms
+05/23/2019 22:48:18,Info," Successfully installed UiPathSupportDummyProject to the Output directory"
+05/23/2019 22:48:22,Info,Checking Official feed : https://www.myget.org/F/workflow/
+05/23/2019 22:48:22,Info,NuGet Version: 4.9.4.5839
+05/23/2019 22:48:22,Info,Feeds used:
+05/23/2019 22:48:22,Info,"  C:\Users\Vijay Chand\.nuget\packages\"
+05/23/2019 22:48:22,Info,"  https://www.myget.org/F/workflow//api/v3/index.json"
+05/23/2019 22:48:22,Info,
+05/23/2019 22:48:23,Info,
+05/23/2019 22:48:23,Info,
+05/23/2019 22:48:23,Info,"Attempting to gather dependency information for package 'UiPath.Mail.Activities.1.4.0' with respect to project 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output', targeting 'Any,Version=v0.0'"
+05/23/2019 22:48:23,Info,"  CACHE https://www.myget.org/F/workflow/api/v3/registration1/uipath.mail.activities/index.json"
+05/23/2019 22:48:23,Info,"  CACHE https://www.myget.org/F/workflow/api/v3/registration1/microsoft.exchange.webservices/index.json"
+05/23/2019 22:48:23,Info,"  CACHE https://www.myget.org/F/workflow/api/v3/registration1/bouncycastle/index.json"
+05/23/2019 22:48:23,Info,"  CACHE https://www.myget.org/F/workflow/api/v3/registration1/interop.domino.dll/index.json"
+05/23/2019 22:48:23,Info,Total number of results gathered : 11
+05/23/2019 22:48:23,Info,Gathering dependency information took 317.71 ms
+05/23/2019 22:48:23,Info,Summary of time taken to gather dependencies per source :
+05/23/2019 22:48:23,Info,https://www.myget.org/F/workflow//api/v3/index.json	-	179.6 ms
+05/23/2019 22:48:23,Info,C:\Users\Vijay Chand\.nuget\packages\	-	54.95 ms
+05/23/2019 22:48:23,Info,C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output	-	2.7 ms
+05/23/2019 22:48:23,Info,Attempting to resolve dependencies for package 'UiPath.Mail.Activities.1.4.0' with DependencyBehavior 'Lowest'
+05/23/2019 22:48:23,Info,Resolving dependency information took 0 ms
+05/23/2019 22:48:23,Info,Resolving actions to install package 'UiPath.Mail.Activities.1.4.0'
+05/23/2019 22:48:23,Info,Resolved actions to install package 'UiPath.Mail.Activities.1.4.0'
+05/23/2019 22:48:23,Info,Retrieving package 'BouncyCastle 1.8.1' from 'C:\Users\Vijay Chand\.nuget\packages\'.
+05/23/2019 22:48:23,Info,Retrieving package 'interop.domino.dll 1.0.0' from 'C:\Users\Vijay Chand\.nuget\packages\'.
+05/23/2019 22:48:23,Info,Retrieving package 'Microsoft.Exchange.WebServices 2.2.0' from 'C:\Users\Vijay Chand\.nuget\packages\'.
+05/23/2019 22:48:23,Info,Retrieving package 'UiPath.Mail.Activities 1.4.0' from 'C:\Users\Vijay Chand\.nuget\packages\'.
+05/23/2019 22:48:23,Info,Adding package 'BouncyCastle.1.8.1' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:48:23,Info,Added package 'BouncyCastle.1.8.1' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:48:23,Info,Added package 'BouncyCastle.1.8.1' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output' from source 'C:\Users\Vijay Chand\.nuget\packages\'
+05/23/2019 22:48:23,Info,Successfully installed 'BouncyCastle 1.8.1' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output
+05/23/2019 22:48:23,Info,Adding package 'interop.domino.dll.1.0.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:48:23,Info,Added package 'interop.domino.dll.1.0.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:48:23,Info,Added package 'interop.domino.dll.1.0.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output' from source 'C:\Users\Vijay Chand\.nuget\packages\'
+05/23/2019 22:48:23,Info,Successfully installed 'interop.domino.dll 1.0.0' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output
+05/23/2019 22:48:23,Info,Adding package 'Microsoft.Exchange.WebServices.2.2.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:48:23,Info,Added package 'Microsoft.Exchange.WebServices.2.2.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:48:23,Info,Added package 'Microsoft.Exchange.WebServices.2.2.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output' from source 'C:\Users\Vijay Chand\.nuget\packages\'
+05/23/2019 22:48:23,Info,Successfully installed 'Microsoft.Exchange.WebServices 2.2.0' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output
+05/23/2019 22:48:23,Info,Adding package 'UiPath.Mail.Activities.1.4.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:48:24,Info,PackageSignatureVerificationLog: PackageIdentity: UiPath.Mail.Activities.1.4.0 Source: C:\Users\Vijay Chand\.nuget\packages\ PackageSignatureValidity: True
+05/23/2019 22:48:24,Info,Added package 'UiPath.Mail.Activities.1.4.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:48:24,Info,Added package 'UiPath.Mail.Activities.1.4.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output' from source 'C:\Users\Vijay Chand\.nuget\packages\'
+05/23/2019 22:48:24,Info,Successfully installed 'UiPath.Mail.Activities 1.4.0' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output
+05/23/2019 22:48:24,Info,Executing nuget actions took 477.38 ms
+05/23/2019 22:48:28,Info,--> The API Key 'eb5b1110-5eb0-4274-a54f-b5ed85c6301a' was saved for 'https://platform.uipath.com/nuget/feed/fantastic'.
+05/23/2019 22:48:29,Info,Pushing UiPathSupportDummyProject.1.0.7069.27608.nupkg to 'https://platform.uipath.com/nuget/feed/fantastic'...
+05/23/2019 22:48:30,Info,"  BadRequest https://platform.uipath.com/nuget/feed/fantastic/ 389ms"
+05/23/2019 22:48:30,Info,Installing UiPathSupportDummyProject from Orch to .nuget/packages
+05/23/2019 22:48:31,Info,NuGet Version: 4.9.4.5839
+05/23/2019 22:48:31,Info,Feeds used:
+05/23/2019 22:48:31,Info,"  https://platform.uipath.com/nuget/feed/fantastic"
+05/23/2019 22:48:31,Info,
+05/23/2019 22:48:31,Info,Installing package 'UiPathSupportDummyProject' to 'C:\Users\Vijay Chand\.nuget\packages'.
+05/23/2019 22:48:32,Info,"  GET https://platform.uipath.com/nuget/feed/fantastic/FindPackagesById()?id='UiPathSupportDummyProject'&semVerLevel=2.0.0"
+05/23/2019 22:48:32,Info,"  OK https://platform.uipath.com/nuget/feed/fantastic/FindPackagesById()?id='UiPathSupportDummyProject'&semVerLevel=2.0.0 656ms"
+05/23/2019 22:48:32,Info,
+05/23/2019 22:48:32,Info,
+05/23/2019 22:48:32,Info,"Attempting to gather dependency information for package 'UiPathSupportDummyProject.1.0.7069.27608' with respect to project 'C:\Users\Vijay Chand\.nuget\packages', targeting 'Any,Version=v0.0'"
+05/23/2019 22:48:33,Info,Package UiPathSupportDummyProject from source https://platform.uipath.com/nuget/feed/fantastic gathered from cache.
+05/23/2019 22:48:33,Info,Total number of results gathered : 1
+05/23/2019 22:48:33,Info,Gathering dependency information took 65.53 ms
+05/23/2019 22:48:33,Info,Summary of time taken to gather dependencies per source :
+05/23/2019 22:48:33,Info,Attempting to resolve dependencies for package 'UiPathSupportDummyProject.1.0.7069.27608' with DependencyBehavior 'Lowest'
+05/23/2019 22:48:33,Info,Resolving dependency information took 0 ms
+05/23/2019 22:48:33,Info,Resolving actions to install package 'UiPathSupportDummyProject.1.0.7069.27608'
+05/23/2019 22:48:33,Info,Resolved actions to install package 'UiPathSupportDummyProject.1.0.7069.27608'
+05/23/2019 22:48:33,Info,Retrieving package 'UiPathSupportDummyProject 1.0.7069.27608' from 'https://platform.uipath.com/nuget/feed/fantastic'.
+05/23/2019 22:48:33,Info,"  GET https://platform.uipath.com/nuget/Feed/fantastic/Packages(Id='UiPathSupportDummyProject',Version='1.0.7069.27608')/Download"
+05/23/2019 22:48:33,Info,"  OK https://platform.uipath.com/nuget/Feed/fantastic/Packages(Id='UiPathSupportDummyProject',Version='1.0.7069.27608')/Download 294ms"
+05/23/2019 22:48:33,Info,Acquiring lock for the installation of UiPathSupportDummyProject 1.0.7069.27608
+05/23/2019 22:48:33,Info,Acquired lock for the installation of UiPathSupportDummyProject 1.0.7069.27608
+05/23/2019 22:48:33,Info,Installing UiPathSupportDummyProject 1.0.7069.27608.
+05/23/2019 22:48:33,Info,Completed installation of UiPathSupportDummyProject 1.0.7069.27608
+05/23/2019 22:48:33,Info,Adding package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\.nuget\packages'
+05/23/2019 22:48:33,Info,Added package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\.nuget\packages'
+05/23/2019 22:48:33,Info,Added package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\.nuget\packages' from source 'https://platform.uipath.com/nuget/feed/fantastic'
+05/23/2019 22:48:33,Info,Successfully installed 'UiPathSupportDummyProject 1.0.7069.27608' to C:\Users\Vijay Chand\.nuget\packages
+05/23/2019 22:48:33,Info,Executing nuget actions took 737.61 ms
+,,
+05/23/2019 22:49:23,Info,Satrting NugetInstallation.xaml
+05/23/2019 22:49:23,Info,Inside Flowchart
+05/23/2019 22:49:26,Info,Reading file : C:\Program Files (x86)\UiPath\Studio\NuGet.Config
+05/23/2019 22:49:26,Info,"--> Text in file : <?xml version=""1.0"" encoding=""utf-8""?>
+<configuration>
+  <packageSources>
+    <!-- Add this repository to the list of available repositories -->
+    <add key=""Local"" value="".\Packages"" />
+    <add key=""Official"" value=""https://www.myget.org/F/workflow/"" />
+    <add key=""Community"" value=""https://gallery.uipath.com/api/v2"" />
+  </packageSources>
+</configuration>"
+05/23/2019 22:49:26,Info,"--> Items in dictionary : {""Local"":"".\\Packages"",""Official"":""https://www.myget.org/F/workflow/"",""Community"":""https://gallery.uipath.com/api/v2""}"
+05/23/2019 22:49:31,Info,Checking Local feed : C:\Program Files (x86)\UiPath\Studio\Packages
+05/23/2019 22:49:32,Info,Write Access provided to local feed? : True
+05/23/2019 22:49:32,Info,Number of .nupkg files present in the Local Feed49
+05/23/2019 22:49:32,Info,"FIles present are : [""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.Genetic.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.Imaging.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.Math.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AForge.Neuro.2.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AvalonEdit.5.0.2.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\AvalonEdit.5.0.3.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\BitMiracle.Docotic.Pdf.5.2.8369.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\BouncyCastle.1.8.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Caliburn.Micro.3.0.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Caliburn.Micro.Core.3.0.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\ClosedXML.0.87.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\CsvHelper.2.13.5.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\DocumentFormat.OpenXml.2.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\DocX.1.0.0.18.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Extended.Wpf.Toolkit.3.5.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Fluent.Ribbon.3.5.1.198.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\FSharp.Core.4.0.0.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Humanizer.Core.2.4.2.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\IvanAkcheurov.NTextCat.Lib.0.2.1.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\MathNet.Numerics.4.5.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Metrics.NET.0.5.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Microsoft.Exchange.WebServices.2.2.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Microsoft.Rest.ClientRuntime.2.3.10.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Microsoft.VisualStudio.OLE.Interop.7.10.6071.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Newtonsoft.Json.10.0.3.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Newtonsoft.Json.8.0.3.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\NPOI.2.4.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\Numsense.0.12.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\RestSharp.106.3.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\SharpZipLib.1.0.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\System.Collections.Immutable.1.5.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\System.Runtime.InteropServices.RuntimeInformation.4.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\System.ValueTuple.4.4.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.10.0.7020.22745.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.CefSharpBundle.1.0.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Cognitive.Activities.2.2.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Core.Activities.2018.3.6897.22553.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Excel.Activities.2.5.1.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Framework.Activities.2018.3.6897.22555.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.IntelligentOCR.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Mail.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.PDF.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.System.Activities.18.4.2.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Terminal.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.UIAutomation.Activities.18.4.5.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Vision.1.2.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.WebAPI.Activities.1.3.0.nupkg"",""C:\\Program Files (x86)\\UiPath\\Studio\\Packages\\UiPath.Word.Activities.1.3.0.nupkg""]"
+05/23/2019 22:49:32,Info,Trying to install UiPathSupportDummyProject to the Output directory
+05/23/2019 22:49:33,Info,NuGet Version: 4.9.4.5839
+05/23/2019 22:49:33,Info,Feeds used:
+05/23/2019 22:49:33,Info,"  C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget"
+05/23/2019 22:49:33,Info,
+05/23/2019 22:49:33,Info,Installing package 'UiPathSupportDummyProject' to 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'.
+05/23/2019 22:49:33,Info,
+05/23/2019 22:49:33,Info,
+05/23/2019 22:49:33,Info,"Attempting to gather dependency information for package 'UiPathSupportDummyProject.1.0.7069.27608' with respect to project 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output', targeting 'Any,Version=v0.0'"
+05/23/2019 22:49:33,Info,Package UiPathSupportDummyProject from source C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget gathered from cache.
+05/23/2019 22:49:33,Info,Total number of results gathered : 1
+05/23/2019 22:49:33,Info,Gathering dependency information took 47.79 ms
+05/23/2019 22:49:33,Info,Summary of time taken to gather dependencies per source :
+05/23/2019 22:49:33,Info,Attempting to resolve dependencies for package 'UiPathSupportDummyProject.1.0.7069.27608' with DependencyBehavior 'Lowest'
+05/23/2019 22:49:33,Info,Resolving dependency information took 0 ms
+05/23/2019 22:49:33,Info,Resolving actions to install package 'UiPathSupportDummyProject.1.0.7069.27608'
+05/23/2019 22:49:33,Info,Resolved actions to install package 'UiPathSupportDummyProject.1.0.7069.27608'
+05/23/2019 22:49:33,Info,Retrieving package 'UiPathSupportDummyProject 1.0.7069.27608' from 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget'.
+05/23/2019 22:49:33,Info,Adding package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:49:33,Info,Added package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:49:33,Info,Added package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output' from source 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget'
+05/23/2019 22:49:33,Info,Successfully installed 'UiPathSupportDummyProject 1.0.7069.27608' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output
+05/23/2019 22:49:33,Info,Executing nuget actions took 134.04 ms
+05/23/2019 22:49:34,Info," Successfully installed UiPathSupportDummyProject to the Output directory"
+05/23/2019 22:49:39,Info,Checking Official feed : https://www.myget.org/F/workflow/
+05/23/2019 22:49:40,Info,NuGet Version: 4.9.4.5839
+05/23/2019 22:49:40,Info,Feeds used:
+05/23/2019 22:49:40,Info,"  C:\Users\Vijay Chand\.nuget\packages\"
+05/23/2019 22:49:40,Info,"  https://www.myget.org/F/workflow//api/v3/index.json"
+05/23/2019 22:49:40,Info,
+05/23/2019 22:49:40,Info,
+05/23/2019 22:49:40,Info,
+05/23/2019 22:49:40,Info,"Attempting to gather dependency information for package 'UiPath.Mail.Activities.1.4.0' with respect to project 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output', targeting 'Any,Version=v0.0'"
+05/23/2019 22:49:40,Info,"  CACHE https://www.myget.org/F/workflow/api/v3/registration1/uipath.mail.activities/index.json"
+05/23/2019 22:49:40,Info,"  CACHE https://www.myget.org/F/workflow/api/v3/registration1/microsoft.exchange.webservices/index.json"
+05/23/2019 22:49:40,Info,"  CACHE https://www.myget.org/F/workflow/api/v3/registration1/bouncycastle/index.json"
+05/23/2019 22:49:40,Info,"  CACHE https://www.myget.org/F/workflow/api/v3/registration1/interop.domino.dll/index.json"
+05/23/2019 22:49:40,Info,Total number of results gathered : 11
+05/23/2019 22:49:40,Info,Gathering dependency information took 204.33 ms
+05/23/2019 22:49:40,Info,Summary of time taken to gather dependencies per source :
+05/23/2019 22:49:40,Info,https://www.myget.org/F/workflow//api/v3/index.json	-	85.35 ms
+05/23/2019 22:49:40,Info,C:\Users\Vijay Chand\.nuget\packages\	-	37.99 ms
+05/23/2019 22:49:40,Info,C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output	-	5.37 ms
+05/23/2019 22:49:40,Info,Attempting to resolve dependencies for package 'UiPath.Mail.Activities.1.4.0' with DependencyBehavior 'Lowest'
+05/23/2019 22:49:40,Info,Resolving dependency information took 0 ms
+05/23/2019 22:49:40,Info,Resolving actions to install package 'UiPath.Mail.Activities.1.4.0'
+05/23/2019 22:49:40,Info,Resolved actions to install package 'UiPath.Mail.Activities.1.4.0'
+05/23/2019 22:49:40,Info,Retrieving package 'BouncyCastle 1.8.1' from 'C:\Users\Vijay Chand\.nuget\packages\'.
+05/23/2019 22:49:40,Info,Retrieving package 'interop.domino.dll 1.0.0' from 'C:\Users\Vijay Chand\.nuget\packages\'.
+05/23/2019 22:49:40,Info,Retrieving package 'Microsoft.Exchange.WebServices 2.2.0' from 'C:\Users\Vijay Chand\.nuget\packages\'.
+05/23/2019 22:49:40,Info,Retrieving package 'UiPath.Mail.Activities 1.4.0' from 'C:\Users\Vijay Chand\.nuget\packages\'.
+05/23/2019 22:49:40,Info,Adding package 'BouncyCastle.1.8.1' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:49:40,Info,Added package 'BouncyCastle.1.8.1' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:49:40,Info,Added package 'BouncyCastle.1.8.1' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output' from source 'C:\Users\Vijay Chand\.nuget\packages\'
+05/23/2019 22:49:40,Info,Successfully installed 'BouncyCastle 1.8.1' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output
+05/23/2019 22:49:40,Info,Adding package 'interop.domino.dll.1.0.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:49:40,Info,Added package 'interop.domino.dll.1.0.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:49:40,Info,Added package 'interop.domino.dll.1.0.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output' from source 'C:\Users\Vijay Chand\.nuget\packages\'
+05/23/2019 22:49:40,Info,Successfully installed 'interop.domino.dll 1.0.0' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output
+05/23/2019 22:49:40,Info,Adding package 'Microsoft.Exchange.WebServices.2.2.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:49:40,Info,Added package 'Microsoft.Exchange.WebServices.2.2.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:49:40,Info,Added package 'Microsoft.Exchange.WebServices.2.2.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output' from source 'C:\Users\Vijay Chand\.nuget\packages\'
+05/23/2019 22:49:40,Info,Successfully installed 'Microsoft.Exchange.WebServices 2.2.0' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output
+05/23/2019 22:49:40,Info,Adding package 'UiPath.Mail.Activities.1.4.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:49:41,Info,PackageSignatureVerificationLog: PackageIdentity: UiPath.Mail.Activities.1.4.0 Source: C:\Users\Vijay Chand\.nuget\packages\ PackageSignatureValidity: True
+05/23/2019 22:49:41,Info,Added package 'UiPath.Mail.Activities.1.4.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output'
+05/23/2019 22:49:41,Info,Added package 'UiPath.Mail.Activities.1.4.0' to folder 'C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output' from source 'C:\Users\Vijay Chand\.nuget\packages\'
+05/23/2019 22:49:41,Info,Successfully installed 'UiPath.Mail.Activities 1.4.0' to C:\Users\Vijay Chand\Desktop\VS projects\Self Healing Bots\2018.4\Nuget\Output
+05/23/2019 22:49:41,Info,Executing nuget actions took 1.16 sec
+05/23/2019 22:49:46,Info,--> The API Key 'eb5b1110-5eb0-4274-a54f-b5ed85c6301a' was saved for 'https://platform.uipath.com/nuget/feed/fantastic'.
+05/23/2019 22:49:48,Info,Pushing UiPathSupportDummyProject.1.0.7069.27608.nupkg to 'https://platform.uipath.com/nuget/feed/fantastic'...
+05/23/2019 22:49:48,Info,"  BadRequest https://platform.uipath.com/nuget/feed/fantastic/ 547ms"
+05/23/2019 22:49:48,Info,Installing UiPathSupportDummyProject from Orch to .nuget/packages
+05/23/2019 22:49:49,Info,NuGet Version: 4.9.4.5839
+05/23/2019 22:49:49,Info,Feeds used:
+05/23/2019 22:49:49,Info,"  https://platform.uipath.com/nuget/feed/fantastic"
+05/23/2019 22:49:49,Info,
+05/23/2019 22:49:49,Info,Installing package 'UiPathSupportDummyProject' to 'C:\Users\Vijay Chand\.nuget\packages'.
+05/23/2019 22:49:50,Info,"  CACHE https://platform.uipath.com/nuget/feed/fantastic/FindPackagesById()?id='UiPathSupportDummyProject'&semVerLevel=2.0.0"
+05/23/2019 22:49:50,Info,
+05/23/2019 22:49:50,Info,
+05/23/2019 22:49:50,Info,"Attempting to gather dependency information for package 'UiPathSupportDummyProject.1.0.7069.27608' with respect to project 'C:\Users\Vijay Chand\.nuget\packages', targeting 'Any,Version=v0.0'"
+05/23/2019 22:49:50,Info,Package UiPathSupportDummyProject from source https://platform.uipath.com/nuget/feed/fantastic gathered from cache.
+05/23/2019 22:49:50,Info,Total number of results gathered : 1
+05/23/2019 22:49:50,Info,Gathering dependency information took 36.43 ms
+05/23/2019 22:49:50,Info,Summary of time taken to gather dependencies per source :
+05/23/2019 22:49:50,Info,Attempting to resolve dependencies for package 'UiPathSupportDummyProject.1.0.7069.27608' with DependencyBehavior 'Lowest'
+05/23/2019 22:49:50,Info,Resolving dependency information took 0 ms
+05/23/2019 22:49:50,Info,Resolving actions to install package 'UiPathSupportDummyProject.1.0.7069.27608'
+05/23/2019 22:49:50,Info,Resolved actions to install package 'UiPathSupportDummyProject.1.0.7069.27608'
+05/23/2019 22:49:50,Info,Retrieving package 'UiPathSupportDummyProject 1.0.7069.27608' from 'https://platform.uipath.com/nuget/feed/fantastic'.
+05/23/2019 22:49:50,Info,"  GET https://platform.uipath.com/nuget/Feed/fantastic/Packages(Id='UiPathSupportDummyProject',Version='1.0.7069.27608')/Download"
+05/23/2019 22:49:50,Info,"  OK https://platform.uipath.com/nuget/Feed/fantastic/Packages(Id='UiPathSupportDummyProject',Version='1.0.7069.27608')/Download 238ms"
+05/23/2019 22:49:50,Info,Acquiring lock for the installation of UiPathSupportDummyProject 1.0.7069.27608
+05/23/2019 22:49:50,Info,Acquired lock for the installation of UiPathSupportDummyProject 1.0.7069.27608
+05/23/2019 22:49:50,Info,Installing UiPathSupportDummyProject 1.0.7069.27608.
+05/23/2019 22:49:50,Info,Completed installation of UiPathSupportDummyProject 1.0.7069.27608
+05/23/2019 22:49:50,Info,Adding package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\.nuget\packages'
+05/23/2019 22:49:50,Info,Added package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\.nuget\packages'
+05/23/2019 22:49:50,Info,Added package 'UiPathSupportDummyProject.1.0.7069.27608' to folder 'C:\Users\Vijay Chand\.nuget\packages' from source 'https://platform.uipath.com/nuget/feed/fantastic'
+05/23/2019 22:49:50,Info,Successfully installed 'UiPathSupportDummyProject 1.0.7069.27608' to C:\Users\Vijay Chand\.nuget\packages
+05/23/2019 22:49:50,Info,Executing nuget actions took 489.27 ms

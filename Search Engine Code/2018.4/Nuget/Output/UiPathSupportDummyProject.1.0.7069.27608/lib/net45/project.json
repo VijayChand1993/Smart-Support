@@ -1,0 +1,25 @@
+{
+  "name": "UiPathSupportDummyProject",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {},
+  "schemaVersion": "3.2",
+  "studioVersion": "18.4.5.0",
+  "projectVersion": "1.0.7069.27608",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  }
+}
